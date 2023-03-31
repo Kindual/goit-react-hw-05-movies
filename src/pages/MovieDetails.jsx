@@ -31,7 +31,7 @@ export function MovieDetails() {
                     </li>
                     <li>
                         <h3>Genres</h3>
-                        <p>{movie.genres > 0 ? movie.genres.map(genre => `${genre.name}`).join(', ') : '---'}</p>
+                        <p>{movie.genres ? movie.genres.map(genre => `${genre.name}`).join(', ') : '---'}</p>
                     </li>
                 </ul>
             </div>
