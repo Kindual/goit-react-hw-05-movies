@@ -18,7 +18,7 @@ export function Movies() {
                 setMovies(response.results)
             })()
         }
-    }, []);
+    }, [searchUrl]);
 
     const onSubmit = async (e) => {
         e.preventDefault();
